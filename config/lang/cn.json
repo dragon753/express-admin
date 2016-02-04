@@ -17,13 +17,13 @@
     "find-user"         : "不存在的用户!",
     "invalid-password"  : "密码错误!",
 
-    "home"              : "Home",
+    "home"              : "首页",
     "site-admin"        : "站点管理",
     "tables"            : "数据表",
     "views"             : "Views",
     "others"            : "其它",
     
-    "select"            : "对",
+    "select"            : "选择",
     "to-change"         : "进行修改",
     "filter"            : "按条件过滤",
     "clear"             : "清除",
@@ -33,7 +33,7 @@
     "or"                : "或",
     "today"             : "今天",
 
-    "add-another"       : "载追加",
+    "add-another"       : "再追加",
     "remove"            : "移除",
     "add"               : "增加",
     "change"            : "修改",
