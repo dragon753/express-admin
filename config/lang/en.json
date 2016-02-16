@@ -1,8 +1,8 @@
 {
     "name"              : "English",
 
-    "logo"              : "Express Admin",
-    
+    "logo"              : "Game Statistic",
+
     "layout"            : "Layout",
     "centered"          : "Centered",
     "streched"          : "Streched",
@@ -22,7 +22,7 @@
     "tables"            : "Tables",
     "views"             : "Views",
     "others"            : "Others",
-    
+
     "select"            : "Select",
     "to-change"         : "to change",
     "filter"            : "Filter",
@@ -47,5 +47,11 @@
     "saved"             : "The record have been saved",
     "checkout"          : "Check out the highlighted fields below",
 
-    "notfound"          : "The requested page was not found."
+    "notfound"          : "The requested page was not found.",
+
+
+    "changepassword"    : "Change password",
+    "oldpassword"       : "Old password",
+    "newpassword"       : "New password",
+    "re-login"          : "Please login again"
 }

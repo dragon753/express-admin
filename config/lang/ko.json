@@ -1,4 +1,4 @@
-{
+﻿{
     "name"              : "한국어",
     
     "logo"              : "익스프레스 관리자",
@@ -47,5 +47,11 @@
     "saved"             : "데이터가 저장되었습니다.",
     "checkout"          : "밝게 표시된 부분을 다시 확인해주세요",
 
-    "notfound"          : "페이지를 찾을 수 없습니다"
+    "notfound"          : "페이지를 찾을 수 없습니다",
+
+
+    "changepassword"    : "암호 변경",
+    "oldpassword"       : "기존 비밀번호",
+    "newpassword"       : "새 비밀번호",
+    "re-login"          : "다시 로그인 해주세요"
 }

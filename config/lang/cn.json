@@ -1,8 +1,8 @@
 {
     "name"              : "Chinese/中文",
 
-    "logo"              : "Express Admin",
-    
+    "logo"              : "游戏数据统计",
+
     "layout"            : "布局",
     "centered"          : "居中",
     "streched"          : "拉伸",
@@ -22,8 +22,8 @@
     "tables"            : "数据表",
     "views"             : "Views",
     "others"            : "其它",
-    
-    "select"            : "选择",
+
+    "select"            : "请选择",
     "to-change"         : "进行修改",
     "filter"            : "按条件过滤",
     "clear"             : "清除",
@@ -47,5 +47,10 @@
     "saved"             : "数据已保存",
     "checkout"          : "请检查高亮数据项",
 
-    "notfound"          : "您请求的页面不存在."
+    "notfound"          : "您请求的页面不存在.",
+
+    "changepassword"    : "修改密码",
+    "oldpassword"       : "旧密码",
+    "newpassword"       : "新密码",
+    "re-login"          : "请重新登录"
 }

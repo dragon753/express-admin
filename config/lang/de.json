@@ -47,5 +47,11 @@
     "saved"             : "Der Eintrag wurde gespeichert",
     "checkout"          : "Überprüfen Sie die markierten Felder unten",
 
-    "notfound"          : "Die angeforderte Seite wurde nicht gefunden."
+    "notfound"          : "Die angeforderte Seite wurde nicht gefunden.",
+
+
+    "changepassword"    : "Passwort ändern",
+    "oldpassword"       : "Altes Passwort",
+    "newpassword"       : "Neues Kennwort",
+    "re-login"          : "Bitte melden Sie sich erneut an"
 }

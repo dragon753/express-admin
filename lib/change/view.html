@@ -1,0 +1,55 @@
+<h2>
+    {{string.changepassword}}
+</h2>
+<form class="form-horizontal" method="post" accept-charset="utf-8" enctype="multipart/form-data">
+    <fieldset id="controls">
+        <table class="table table-bordered x-table">
+            <tbody>
+            <tr>
+                <td>
+                    <div class="form-horizontal ">
+                        <div class="form-group">
+                            <label class="control-label col-sm-3 col-md-3 col-lg-2">{{string.oldpassword}}</label>
+                            <div class="col-sm-5 col-md-4 col-lg-3">
+                                <input type="password" class="form-control" name="old" />
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="form-horizontal ">
+                        <div class="form-group">
+                            <label class="control-label col-sm-3 col-md-3 col-lg-2">{{string.newpassword}}</label>
+                            <div class="col-sm-5 col-md-4 col-lg-3">
+                                <input type="password" class="form-control" name="new" />
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </fieldset>
+
+    <fieldset id="controls">
+        <button type="submit" class="btn btn-primary form-control" name="action[save]">{{string.save}}</button>
+        <input type="hidden" name="_csrf" value="{{csrf}}"/>
+    </fieldset>
+</form>
+
+{{#show.success}}
+<div class="alert alert-success alert-dismissable">
+    <script>
+        alert("{{string.success}}. {{string.re-login}}");
+        window.location.href= "/logout";
+    </script>
+{{/show.success}}
+
+{{#show.error}}
+<div class="alert alert-danger alert-dismissable">
+    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+    <strong>{{string.error}}:</strong> {{show.error}}.
+</div>
+{{/show.error}}
